@@ -1,0 +1,31 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+int main()
+{
+    int x,y;
+    printf("enter a number between 0 to 39:");
+    scanf("%d,&y");
+    if(y/10==0)
+    {
+        printf("you have enered the number in the range of 0 to 9\n");
+    
+    }
+    else if(y/10==1)
+    {
+        printf("you have entered number in the range of 10-19\n");
+    }
+    else if(y/10==2)
+    {
+        printf("you have entered number in the range of 20-29\n");
+    }
+    else if (y/10==3)
+    {
+        printf("the number not in range \n");
+    }
+return 0;
+}
+
+
+output =
+enter a number between 0 to 39:3
+Segmentation fault
